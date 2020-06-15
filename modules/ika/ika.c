@@ -19,7 +19,7 @@
 
 #include <linux/module.h>
 #include <linux/i2c.h>
-#include <linux/i2c/ads1015.h>
+#include <linux/platform_data/ads1015.h>
 
 #define IKA_ADS1015_ADDRESS 0x48
 /* This is example code. Verify this bus is correct before loading module. */
